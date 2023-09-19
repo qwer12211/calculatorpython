@@ -11,10 +11,10 @@ while True:
     print("8. Синус")
     print("9. Косинус")
     print("10. Тангенс")
-    print("11. Exit")
+    print("11. Выход")
     choice = input("Введите номер операции: ")
     if choice == '11':
-        print("Конец.")
+        print("Остановка программы.")
         break
     if choice in ('1', '2', '3', '4', '5'):
         a = float(input("Введите первое число: "))
